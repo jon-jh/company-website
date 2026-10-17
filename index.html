@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Better Day Apps | 102244501 Saskatchewan Ltd.</title>
+  <meta name="description" content="Better Day Apps is a software development company based in Saskatoon, Saskatchewan, building practical mobile applications.">
+  <style>
+    :root {
+      --ink: #1a2332;
+      --muted: #5b6779;
+      --accent: #2563eb;
+      --bg: #f7f9fc;
+      --card: #ffffff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid #e5eaf1;
+      position: sticky;
+      top: 0;
+    }
+    .nav {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo { font-weight: 700; font-size: 1.15rem; }
+    .logo span { color: var(--accent); }
+    .nav a { color: var(--muted); text-decoration: none; margin-left: 1.5rem; font-size: 0.95rem; }
+    .nav a:hover { color: var(--ink); }
+    .hero {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 4rem;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2.4rem; line-height: 1.2; margin-bottom: 1rem; }
+    .hero p { color: var(--muted); font-size: 1.15rem; max-width: 620px; margin: 0 auto; }
+    section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #e5eaf1;
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .card h3 { margin-bottom: 0.5rem; font-size: 1.05rem; }
+    .card p { color: var(--muted); font-size: 0.95rem; }
+    .contact-line { color: var(--muted); margin-bottom: 0.35rem; }
+    a { color: var(--accent); }
+    footer {
+      border-top: 1px solid #e5eaf1;
+      margin-top: 3rem;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .policy-text { color: var(--muted); font-size: 0.95rem; }
+    .policy-text h3 { color: var(--ink); margin: 1.25rem 0 0.4rem; font-size: 1rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Better Day <span>Apps</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#apps">Apps</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Software that makes ordinary days a little better.</h1>
+  <p>Better Day Apps is a small software development company based in Saskatoon, Saskatchewan, building practical, easy-to-use mobile applications.</p>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p style="color: var(--muted);">
+    Better Day Apps operates as <strong>102244501 Saskatchewan Ltd.</strong>, a Saskatchewan corporation
+    registered in Saskatoon, Saskatchewan, Canada. We design, develop, and maintain mobile apps for iOS
+    and Android, with a focus on clean design, reliability, and user privacy.
+  </p>
+</section>
+
+<section id="apps">
+  <h2>Our Apps</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>iOS &amp; Android Development</h3>
+      <p>We build and publish native mobile applications distributed through the App Store and Google Play.</p>
+    </div>
+    <div class="card">
+      <h3>Privacy First</h3>
+      <p>Our apps are designed to collect as little personal data as possible, and never sell user data.</p>
+    </div>
+    <div class="card">
+      <h3>Support</h3>
+      <p>Questions, feedback, or bug reports? Email us at <a href="mailto:contact@betterdayapps.ca">contact@betterdayapps.ca</a> and we'll get back to you.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="contact-line"><strong>Better Day Apps (102244501 Saskatchewan Ltd.)</strong></p>
+  <p class="contact-line">306 Ontario Ave Unit 100<br>Saskatoon, SK S7K 2H5<br>Canada</p>
+  <p class="contact-line">Email: <a href="mailto:contact@betterdayapps.ca">contact@betterdayapps.ca</a></p>
+</section>
+
+<section id="privacy">
+  <h2>Privacy Policy</h2>
+  <div class="policy-text">
+    <p><em>Last updated: October 17, 2026</em></p>
+
+    <h3>Who we are</h3>
+    <p>This privacy policy describes how 102244501 Saskatchewan Ltd. ("Better Day Apps", "we", "us") handles information in connection with our mobile applications and this website.</p>
+
+    <h3>Information we collect</h3>
+    <p>Our apps are designed to minimize data collection. Currently, we do not collect personally identifiable information from users of our applications. Any analytics or crash-reporting tools used will be described here before or when they are enabled.</p>
+
+    <h3>How we use information</h3>
+    <p>If we collect information in the future, it will only be used to operate, improve, and support our apps, and never sold to third parties.</p>
+
+    <h3>Sharing</h3>
+    <p>We do not sell personal information. We do not share personal information with third parties except as required by law or as described in this policy.</p>
+
+    <h3>Data retention &amp; deletion</h3>
+    <p>To request information about or deletion of any data associated with you, contact us at <a href="mailto:contact@betterdayapps.ca">contact@betterdayapps.ca</a>. We respond to requests within 30 days.</p>
+
+    <h3>Contact</h3>
+    <p>102244501 Saskatchewan Ltd.<br>306 Ontario Ave Unit 100, Saskatoon, SK S7K 2H5, Canada<br><a href="mailto:contact@betterdayapps.ca">contact@betterdayapps.ca</a></p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 102244501 Saskatchewan Ltd. (operating as Better Day Apps) &middot; Saskatoon, Saskatchewan, Canada<br>
+  <a href="mailto:contact@betterdayapps.ca">contact@betterdayapps.ca</a>
+</footer>
+
+</body>
+</html>
